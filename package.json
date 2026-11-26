@@ -1,0 +1,26 @@
+{
+  "name": "merch-qa-console",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsc src/core.ts src/catalog.ts --outDir tests/.build --module esnext --target es2020 --moduleResolution bundler --skipLibCheck && node tests/core.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "shots": "node tests/shots.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "chrome-remote-interface": "^0.34.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  },
+  "license": "MIT"
+}
