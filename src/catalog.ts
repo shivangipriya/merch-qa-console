@@ -29,7 +29,7 @@ export const CATALOG: CatalogItem[] = [
     id: 'CK-102', name: 'Fresho Banana Robusta 1 kg', brand: 'Fresho', category: 'Fruits & Vegetables',
     keywords: ['banana', 'fruit'], packSize: '1 kg', unitGrams: 1000, unitBasis: 'weight',
     mrp: 65, sellingPrice: 52, discountPctShown: 20, pricePerUnitShown: 52,
-    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Cavendish_bananas_DS.jpg/400px-Cavendish_bananas_DS.jpg', badges: [{ label: 'Bestseller', addedDaysAgo: 90 }], salesRank: 8, listedDaysAgo: 380,
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Cavendish_bananas_DS.jpg/250px-Cavendish_bananas_DS.jpg', badges: [{ label: 'Bestseller', addedDaysAgo: 90 }], salesRank: 8, listedDaysAgo: 380,
   },
   {
     id: 'CK-103', name: 'Aashirvaad Shudh Chakki Atta 5 kg', brand: 'Aashirvaad', category: 'Staples',
@@ -101,7 +101,7 @@ export const CATALOG: CatalogItem[] = [
     id: 'CK-113', name: 'Fresho Onion 2 kg', brand: 'Fresho', category: 'Fruits & Vegetables',
     keywords: ['onion', 'vegetable'], packSize: '2 kg', unitGrams: 2000, unitBasis: 'weight',
     mrp: 92, sellingPrice: 78, discountPctShown: 15, pricePerUnitShown: 39,
-    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Red_Onion_on_White.JPG/400px-Red_Onion_on_White.JPG', badges: [], salesRank: 14, listedDaysAgo: 365,
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Red_Onion_on_White.JPG/250px-Red_Onion_on_White.JPG', badges: [], salesRank: 14, listedDaysAgo: 365,
   },
   {
     id: 'CK-114', name: 'Britannia NutriChoice Digestive Biscuits 250 g', brand: 'Britannia', category: 'Snacks & Munchies',
@@ -137,7 +137,7 @@ export const CATALOG: CatalogItem[] = [
     id: 'CK-119', name: 'Fresho Spinach Bunch 250 g', brand: 'Fresho', category: 'Fruits & Vegetables',
     keywords: ['spinach', 'palak', 'vegetable', 'leafy'], packSize: '250 g', unitGrams: 250, unitBasis: 'weight',
     mrp: 30, sellingPrice: 26, discountPctShown: 13, pricePerUnitShown: 104,
-    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bunch_of_Spinach_%2816752368240%29.jpg/400px-Bunch_of_Spinach_%2816752368240%29.jpg', badges: [], salesRank: 47, listedDaysAgo: 300,
+    imageUrl: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bunch_of_Spinach_%2816752368240%29.jpg/250px-Bunch_of_Spinach_%2816752368240%29.jpg', badges: [], salesRank: 47, listedDaysAgo: 300,
   },
   {
     id: 'CK-120', name: 'McCain French Fries 420 g', brand: 'McCain', category: 'Frozen Foods',
